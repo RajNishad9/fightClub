@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url("./fightClub.jpg");
+  height: 110vh;
+}
+
+header {
+  color: wheat;
+  position: sticky;
+  top: 0;
+}
+
+.fl {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.name {
+  display: inline-block;
+  padding: 10px;
+  font-size: xx-large;
+  color: salmon;
+  font-weight: 400;
+}
+
+.register {
+  font-size: larger;
+  padding: 10px;
+  display: inline-block;
+}
+
+#red {
+  color: salmon;
+}
+
+.register > a {
+  margin: 15px;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.quote {
+  position: absolute;
+  color: rgb(128, 124, 124);
+  right: 170px;
+  top: 130px;
+}
+
+.reed {
+  color: salmon;
+}
+
+footer {
+  color: wheat;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
